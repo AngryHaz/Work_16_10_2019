@@ -6,7 +6,8 @@ int main(){
 
 	cout << "Hello world" << endl;
 	int a;
-	cin >> a; 
+	cin >> a;
+	cout << a << endl;  
  
 return 0; 
 }
