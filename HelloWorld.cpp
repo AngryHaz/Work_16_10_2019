@@ -14,8 +14,9 @@ int main(){
 		cout << "Это не число!\n";  
 		break; 
 	} 
-
-	cout << a << endl; 
+	
+	int b = atoi(a);
+	cout << b + 7 << endl;
 
 	return 0; 
 }
