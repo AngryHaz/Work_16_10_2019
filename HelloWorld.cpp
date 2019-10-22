@@ -15,7 +15,8 @@ int main(){
 		break; 
 	} 
 
-	cout << a << endl; 
-
+	int b = atoi(a);
+	cout << b + 5 << endl; 
+		
 	return 0; 
 }
